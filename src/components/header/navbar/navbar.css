@@ -1,12 +1,27 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url(../../../fonts/Worksans/WorkSans-Regular.otf);
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../../../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+
+
 .navBlock {
-    height: 63px;
+    height: 80px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .navLogo {
-    background: url(./../../../images/logoBg.png) no-repeat left center;
-    height: 59px;
+    background: url(./../../../images/logoBg.png) no-repeat left top;
+    height: 65px;
+    padding-top: 5px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .navLogoBigText {
@@ -28,6 +43,8 @@
 
 
 .navListItems {
+    width: 50%;
+    padding-top: 30px;
     display: flex;
     gap: 40px;
 }
@@ -45,6 +62,7 @@
 
 
 .navConsultation {
+    width: 27%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -53,7 +71,7 @@
 .navConsultButton {
     border: none;
     background: #FCD54C;
-    width: 165px;
+    min-width: 165px;
     height: 41px;
     font-family: 'Work Sans';
     font-size: 14px;
@@ -65,6 +83,7 @@
 }
 
 .navConsultNumber {
+    min-width: 115px;
     text-decoration: none;
     font-family: 'Gilroy';
     font-size: 16px;
