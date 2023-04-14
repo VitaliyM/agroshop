@@ -8,7 +8,7 @@ const Header = () => {
         
         <Navbar />
 
-        <div></div>
+        <div className='headerImageBlock'></div>
 
     </header>
   )
