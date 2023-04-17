@@ -1,9 +1,79 @@
-.headerBlock {
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 20px;
+@font-face {
+    font-family: "Work Sans";
+    src: url(../../fonts/Worksans/WorkSans-Regular.otf);
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../../fonts/Gilroy/Gilroy-Regular.ttf);
 }
 
-.headerImageBlock {
-    height: 900px;
+.headerBlock {
+    width: 100%;
+    padding-left: 3.13%;
+    padding-right: 3.13%;
+    padding-top: 20px;
+    display: flex;
+}
+
+
+
+/* ------------------- */
+.headerLogo {
+    background: url(./../../images/logoBg.png) no-repeat left top;
+    height: 65px;
+    padding-top: 5px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerLogoBigText {
+    font-family: 'Gilroy';
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.headerLogoSmallText {
+    font-family: 'Work Sans';
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+
+
+
+/* -------------------------------- */
+
+.headerConsultation {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 5vw;
+}
+
+.headerConsultButton {
+    border: none;
+    background: #FCD54C;
+    width: 165px;
+    height: 41px;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+.headerConsultNumber {
+    width: 115px;
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
 }

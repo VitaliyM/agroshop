@@ -6,13 +6,16 @@ function App() {
     <div className="App">
       
       <Header />
-      {/* <Projects />
-      <Apartment />
-      <ContactUs />
-      <Articles />
-      <Owner />
-      <Faq />
-      <Footer /> */}
+      {/* 
+      <Main />
+        <Projects />
+        <Apartment />
+        <ContactUs />
+        <Articles />
+        <Owner />
+        <Faq />
+      <Footer /> 
+      */}
 
     </div>
   );
