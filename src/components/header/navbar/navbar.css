@@ -10,17 +10,7 @@
 
 
 .navBlock {
-    height: 80px;
     margin-left: 7%;
-}
-
-
-
-/* ------------------------- */
-
-.navListItems {
-    /* width: 40%; */
-    padding-top: 30px;
     display: flex;
     gap: 40px;
 }
@@ -48,34 +38,52 @@
     transition: width 0.2s linear;
 }
 
-.navList:hover {
+.navList:hover, .navList:focus {
     color: #FCD54C;
 }
 
-.navList:hover::after {
+.navList:hover::after, .navList:focus::after {
+    color: #FCD54C;
     width: 100%;
     transition: width 0.2s linear;
 }
 
 .navListBuy {
-    position: relative;
     width: 45px;
-    background: url(./../../../images/buyArrow.png) no-repeat right 8px;
+}
+
+.menuArrow {
+    background: url(../../../images/buyArrow.png) no-repeat center;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -2px;
+    top: 4px;
+    transform: rotateZ(-90deg);
+    transition: transform 0.2s linear;
 }
 
 .navListBuyCategory {
     border: 1px solid #ffffff;
     background: #272727;
-    width: 300px;
+    width: 0;
     display: none;
     flex-direction: column;
     position: absolute;
     top: 30px;
     left: 0;
+    transition: width 0.5s linear;
 }
 
 .navListBuy:focus .navListBuyCategory {
     display: flex;
+    width: 300px;
+    transition: width 0.5s linear;
+}
+
+.navListBuy:focus .menuArrow{
+    transform: rotateZ(0deg);
+    transition: transform 0.2s linear;
 }
 
 .categoryList {

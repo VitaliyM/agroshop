@@ -12,8 +12,8 @@
     height: 100px;
     padding-left: 3.13%;
     padding-right: 3.13%;
-    padding-top: 20px;
     display: flex;
+    align-items: center;
 }
 
 
