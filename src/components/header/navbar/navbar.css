@@ -2,6 +2,7 @@
     font-family: "Work Sans";
     src: url(../../../fonts/Worksans/WorkSans-Regular.otf);
 }
+
 @font-face {
     font-family: "Gilroy";
     src: url(../../../fonts/Gilroy/Gilroy-Regular.ttf);
@@ -73,7 +74,7 @@
     left: 0;
 }
 
-.navListBuy:focus .navListBuyCategory{
+.navListBuy:focus .navListBuyCategory {
     display: flex;
 }
 
@@ -89,4 +90,29 @@
 .categoryList:hover {
     background: #FCD54C;
     color: #000000;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .navBlock {
+        display: none;
+        background: #272727;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+
+    .navListItems {
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+    }
+
 }
