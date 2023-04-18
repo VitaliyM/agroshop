@@ -18,6 +18,8 @@ const Header = () => {
         <a href="tel:+971001112233" className='headerConsultNumber'>+971 00 111 2233</a>
       </div>
 
+      <div className='openMobMenuBtn'></div>
+
     </header>
   )
 }
