@@ -91,6 +91,10 @@
     z-index: 10;
 }
 
+.openMobMenuBtn:hover {
+    background: url(../../images/closeMobileMenu.png) no-repeat center;
+}
+
 
 
 

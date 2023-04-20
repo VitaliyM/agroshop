@@ -7,13 +7,14 @@ function App() {
       
       <Header />
       {/* 
-      <Main />
+      <Main>
         <Projects />
         <Apartment />
         <ContactUs />
         <Articles />
         <Owner />
         <Faq />
+      </ Main>
       <Footer /> 
       */}
 
