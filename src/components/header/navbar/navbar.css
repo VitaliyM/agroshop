@@ -39,11 +39,13 @@
     transition: width 0.2s linear;
 }
 
-.navList:hover, .navList:focus {
+.navList:hover,
+.navList:focus {
     color: #FCD54C;
 }
 
-.navList:hover::after, .navList:focus::after {
+.navList:hover::after,
+.navList:focus::after {
     color: #FCD54C;
     width: 100%;
     transition: width 0.2s linear;
@@ -65,24 +67,26 @@
 }
 
 .navListBuyCategory {
-    border: 1px solid #ffffff;
+
     background: #272727;
-    width: 0;
-    display: none;
+    width: 300px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
     flex-direction: column;
     position: absolute;
     top: 30px;
     left: 0;
-    transition: width 0.5s linear;
+    transition: height 0.1s linear;
 }
 
 .navListBuy:focus .navListBuyCategory {
-    display: flex;
-    width: 300px;
-    transition: width 0.5s linear;
+    border: 1px solid #ffffff;
+    height: 120px;
+    transition: height 0.1s linear;
 }
 
-.navListBuy:focus .menuArrow{
+.navListBuy:focus .menuArrow {
     transform: rotateZ(0deg);
     transition: transform 0.2s linear;
 }
@@ -114,20 +118,53 @@
 @media screen and (max-width: 768px) {
 
     .navBlock {
-        display: none;
+        /* display: none; */
         background: #272727;
         width: 100%;
+        height: calc(100vh - 96px);
         margin: 0;
+        padding-top: 107px;
+        padding-left: 37%;
         position: absolute;
         left: 0;
-        top: 100px;
+        top: 96px;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        display: flex;
     }
 
-    .navListItems {
-        flex-direction: column;
-        height: 100vh;
-        width: 100%;
-        align-items: center;
+    .navList {
+        width: max-content;
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .navList::after {
+        display: none;
+    }
+
+    .navListBuy {
+        width: 100px;
+    }
+
+    .menuArrow {
+        right: 0;
+        top: 25px;
+        transform: rotateZ(0deg);
+    }
+
+    .navListBuy:focus .menuArrow {
+        transform: rotateZ(180deg);
+    }
+
+    .navListBuyCategory {
+        position: relative;
+        top: 10px;
+    }
+    
+    .navListBuy:focus .navListBuyCategory {
+        border: none;
     }
 
 }
