@@ -1,6 +1,103 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(../../../fonts/SpaceGrotesk/SpaceGrotesk.ttf);
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../../../fonts/Worksans/WorkSans-Regular.otf);
+}
+
 .presentBlock {
     background: url(../../../images/slider1.png)no-repeat;
     /* width: 100%; */
     height: 971px;
+    position: relative;
     color: #ffffff;
+}
+
+
+
+/* ----------------------- */
+.presentText {
+    background: url(../../../images/RectanglePresentationBg.png) no-repeat;
+    background-size: contain;
+    width: 742px;
+    height: 383px;
+    padding-left: 28px;
+    padding-top: 44px;
+    position: absolute;
+    top: 278px;
+    left: 356px;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentTextHeader {
+    font-family: 'Work Sans';
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.presentTextDescribe {
+    margin-top: 22px;
+    font-family: 'Space Grotesk';
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.presentTextDescribe>span {
+    color: #FCD54C;
+}
+
+.presentTextConsult {
+    margin-top: 30px;
+    font-family: 'Work Sans';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+
+/* ------------------- */
+.presentSocials {
+    width: 20px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+}
+
+.presentSocialsBtn {
+    width: 20px;
+    height: 20px;
+}
+
+.facebook {
+    background: url(../../../images/socialIcons.png) no-repeat center 0;
+}
+
+.twitter {
+    background: url(../../../images/socialIcons.png) no-repeat center 0;
+}
+
+.youtube {
+    background: url(../../../images/socialIcons.png) no-repeat center 0;
+}
+
+.instagram {
+    background: url(../../../images/socialIcons.png) no-repeat center 0;
+}
+
+.linkedIn {
+    background: url(../../../images/socialIcons.png) no-repeat center 0;
 }
