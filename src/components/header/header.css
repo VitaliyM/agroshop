@@ -72,7 +72,7 @@
 }
 
 .headerConsultNumber {
-    width: 115px;
+    min-width: 115px;
     text-decoration: none;
     font-family: 'Gilroy';
     font-size: 16px;
