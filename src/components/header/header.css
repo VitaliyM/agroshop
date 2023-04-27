@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: "Gilroy";
-    src: url(../../fonts/Gilroy/Gilroy-Regular.ttf);
+    src: url(../../fonts/Gilroy/Gilroy-Thin.ttf);
 }
 
 .headerBlock {
@@ -72,7 +72,7 @@
 }
 
 .headerConsultNumber {
-    min-width: 115px;
+    min-width: 120px;
     text-decoration: none;
     font-family: 'Gilroy';
     font-size: 16px;
@@ -100,7 +100,7 @@
 
     .headerBlock {
         height: 96px;
-        padding: 0 39px;
+        padding: 0 39px;        
     }
 
     .headerConsultation {

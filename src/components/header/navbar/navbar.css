@@ -108,6 +108,9 @@
 
 
 
+
+/* --------------------- */
+
 @media screen and (max-width: 1440px) {
     .navBlock {
         justify-content: space-between;
@@ -115,11 +118,10 @@
 }
 
 
-
 @media screen and (max-width: 768px) {
 
     .navBlock {
-        /* display: none; */
+        display: none;
         background: #272727;
         width: 100%;
         height: calc(100vh - 96px);
@@ -129,10 +131,10 @@
         position: absolute;
         left: 0;
         top: 96px;
+        z-index: 1;
         flex-direction: column;
         justify-content: flex-start;
         gap: 20px;
-        display: flex;
     }
 
     .navList {

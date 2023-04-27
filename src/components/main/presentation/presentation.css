@@ -197,3 +197,31 @@
         left: 10%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .presentSwitchBlock {
+        width: 80%;
+        height: 130px;
+    }
+
+    .presentSwitchNextPrev {
+        width: 140px;
+    }
+
+    .presentSwitchPagesBlock {
+        width: 75%;
+    }
+
+    .presentSwitchPage {
+        width: 170px;
+        font-size: 13px;
+    }
+
+    .pageNumber {
+        font-size: 55px;
+    }
+
+    .pageText {
+        width: 100px;
+    }
+}
