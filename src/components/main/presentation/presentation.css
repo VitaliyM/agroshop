@@ -199,6 +199,14 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .presentBlock {
+        height: 771px;
+    }
+
+    .presentText {
+        top: 160px;
+    }
+
     .presentSwitchBlock {
         width: 80%;
         height: 130px;
@@ -223,5 +231,87 @@
 
     .pageText {
         width: 100px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .mainBlock {
+        padding: 0 39px;
+    }
+
+    .presentBlock {
+        background-size: cover;
+        height: 372px;
+    }
+
+    .presentText {
+        width: 420px;
+        height: 229px;
+        padding-top: 25px;
+        top: 39px;
+    }
+
+    .presentTextHeader {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .presentTextDescribe {
+        font-size: 50px;
+        line-height: 64px;
+    }
+
+    .presentTextConsult {
+        margin-top: 8px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .presentSocials {
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+
+    .presentSocialsBtn {
+        width: 15px;
+        height: 15px;
+    }
+
+    .presentSwitchBlock {
+        height: 70px;
+        width: 94%;
+    }
+
+    .presentSwitchNextPrev {
+        width: 80px;
+    }
+
+    .presentSwitchBtn {
+        font-size: 10px;
+        line-height: 24px;
+    }
+
+    .switchBtnLine {
+        height: 15px;
+    }
+
+    .presentSwitchPagesBlock {
+        width: 80%;
+    }
+
+    .presentSwitchPage {
+        width: 140px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .pageNumber {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .pageText {
+        width: 90px;
     }
 }
