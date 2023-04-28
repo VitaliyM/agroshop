@@ -204,7 +204,25 @@
     }
 
     .presentText {
+        height: 300px;
+        width: 560px;
+        padding-top: 30px;
         top: 160px;
+    }
+
+    .presentTextHeader {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .presentTextDescribe {
+        font-size: 75px;
+        line-height: 80px;
+    }
+
+    .presentTextConsult {
+        margin-top: 15px;
+        font-size: 17px;
     }
 
     .presentSwitchBlock {
@@ -236,10 +254,6 @@
 
 
 @media screen and (max-width: 768px) {
-    .mainBlock {
-        padding: 0 39px;
-    }
-
     .presentBlock {
         background-size: cover;
         height: 372px;

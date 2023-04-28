@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../../../fonts/Worksans/WorkSans-Regular.otf)
+}
+
+
+.latestProjectsBlock {
+    width: 100%;
+    margin-top: 124px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectsNav {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projectsHeader {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    color: #FFFFFF;
+}
+
+.projectsMenuBlock {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.projectsMenuList {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+/* ----------------------- */
+.projectsSliderBlock {}
+
+
+
+
+/* ------------------------ */
+.projectsExpertiseBlock {}

@@ -1,12 +1,14 @@
 import React from 'react';
 import './main.css';
 import Presentation from './presentation/Presentation'
+import LatestProjects from './latestProjects/LatestProjects';
 
 const Main = () => {
   return (
-    <div className='mainBlock'>
+    <main className='mainBlock'>
         <Presentation />
-    </div>
+        <LatestProjects />
+    </main>
   )
 }
 
