@@ -16,7 +16,13 @@ const LatestProjects = () => {
 
       <div className='projectsSliderBlock'>
         <div className='rpojectListWrapper'>
-          <div className="projectList project1"></div>
+          <div className="projectList project1">
+            <div className="projectDescribe">
+              <div className='projectDescribeHeader'>Villas</div>
+              <div className='projectDescribeText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.</div>
+              <div className='projectDescribeSeeMore'>See project {'>'} </div>
+            </div>
+          </div>
           <div className="projectList project2"></div>
           <div className="projectList project3"></div>
           <div className="projectList project4"></div>

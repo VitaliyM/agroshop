@@ -73,6 +73,8 @@
 .projectList {
     width: 430px;
     height: 572px;
+    position: relative;
+    overflow: hidden;
 }
 
 .project1 {
@@ -91,6 +93,64 @@
     background: url(../../../images/project4\ \(expo\ valley\).jpg) no-repeat;
     background-size: cover;
 }
+
+.projectDescribe {
+    height: 100%;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 60px;
+    padding-top: 46px;
+    padding-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 0;
+    transition: all 0.2s linear;
+}
+
+.projectDescribeHeader {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+    transition: all 0.2s linear;
+}
+
+.projectDescribeText {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #272727;
+}
+
+.projectDescribeSeeMore {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #272727;
+    cursor: pointer;
+}
+
+.projectList:hover .projectDescribe {
+    background: #FCD54C;
+    top: 0;
+    transition: all 0.2s linear;
+}
+
+.projectList:hover .projectDescribeHeader {
+    color: #272727;
+}
+
+
 
 .switchSliderBlock {
     width: 73px;
