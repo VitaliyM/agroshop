@@ -23,9 +23,27 @@ const LatestProjects = () => {
               <div className='projectDescribeSeeMore'>See project {'>'} </div>
             </div>
           </div>
-          <div className="projectList project2"></div>
-          <div className="projectList project3"></div>
-          <div className="projectList project4"></div>
+          <div className="projectList project2">
+          <div className="projectDescribe">
+              <div className='projectDescribeHeader'>Dubai</div>
+              <div className='projectDescribeText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.</div>
+              <div className='projectDescribeSeeMore'>See project {'>'} </div>
+            </div>
+          </div>
+          <div className="projectList project3">
+          <div className="projectDescribe">
+              <div className='projectDescribeHeader'>Houses</div>
+              <div className='projectDescribeText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.</div>
+              <div className='projectDescribeSeeMore'>See project {'>'} </div>
+            </div>
+          </div>
+          <div className="projectList project4">
+          <div className="projectDescribe">
+              <div className='projectDescribeHeader'>Villas</div>
+              <div className='projectDescribeText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.</div>
+              <div className='projectDescribeSeeMore'>See project {'>'} </div>
+            </div>
+          </div>
         </div>
         <div className='switchSliderBlock'>
           <div className="switchSlide"></div>
@@ -34,7 +52,11 @@ const LatestProjects = () => {
         </div>
       </div>
 
-      <div className='projectsExpertiseBlock'></div>
+      <div className='projectsExpertiseBlock'>
+        <div>Our expertises</div>
+        <div>"The best appartment in Dubai" we will find your dream</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+      </div>
     </div>
   )
 }
