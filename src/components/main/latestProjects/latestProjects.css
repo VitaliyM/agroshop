@@ -237,6 +237,7 @@
     }
 
     .projectList {
+        background-size: cover;
         width: 165px;
         height: 220px;
     }
