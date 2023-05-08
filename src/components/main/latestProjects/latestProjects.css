@@ -172,4 +172,89 @@
 
 
 /* ------------------------ */
-.projectsExpertiseBlock {}
+.projectsExpertiseBlock {
+    max-width: 730px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsExpertiseSmallHeader {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FCD54C;
+}
+
+.projectsExpertiseBigHeader {
+    margin-top: 40px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 69px;
+    color: #E8E8E8;
+}
+
+.projectsExpertiseText {
+    margin-top: 33px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E8E8E8;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .projectsHeader {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .latestProjectsBlock {
+        margin-top: 99px;
+    }
+
+    .projectsNav {
+        width: 100%;
+    }
+
+    .projectsHeader {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .projectsMenuList {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .projectList {
+        width: 165px;
+        height: 220px;
+    }
+
+    .projectsExpertiseSmallHeader {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .projectsExpertiseBigHeader {
+        max-width: 450px;
+        margin-top: 14px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .projectsExpertiseText {
+        margin-top: 23px;
+        font-size: 14px;
+    }
+}
