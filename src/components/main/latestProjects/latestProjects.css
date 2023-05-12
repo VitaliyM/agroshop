@@ -106,7 +106,7 @@
     justify-content: space-between;
     position: absolute;
     z-index: 1;
-    top: 410px;
+    top: 465px;
     left: 0;
     transition: all 0.2s linear;
 }
@@ -212,8 +212,30 @@
 
 
 @media screen and (max-width: 1024px) {
+    .projectsNav {
+        width: 95%;
+    }
+
     .projectsHeader {
         font-size: 35px;
+    }
+
+    .projectList {
+        background-position: bottom;
+        height: 450px;
+    }
+
+    .projectDescribe {
+        top: 355px;
+    }
+
+    .projectDescribeText {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .projectDescribeSeeMore {
+        font-size: 16px;
     }
 }
 
@@ -231,6 +253,10 @@
         line-height: 37px;
     }
 
+    .projectsMenuBlock {
+        width: 290px;
+    }
+
     .projectsMenuList {
         font-size: 12px;
         line-height: 14px;
@@ -240,6 +266,29 @@
         background-size: cover;
         width: 165px;
         height: 220px;
+    }
+
+    .projectDescribe {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        top: 180px;
+    }
+
+    .projectDescribeHeader {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .projectDescribeText {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .projectDescribeSeeMore {
+        font-size: 12px;
+        line-height: 14px;
     }
 
     .projectsExpertiseSmallHeader {
