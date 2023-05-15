@@ -1,0 +1,29 @@
+.videoApartmentBlock {
+    width: 100%;
+    height: 921px;
+    margin-top: 89px;
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .videoApartmentBlock {
+        height: 680px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .videoApartmentBlock {
+        height: 481px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .videoApartmentBlock {
+        width: calc(100% + 78px);
+        height: 394px;
+        margin-left: -39px;
+    }
+}
+
