@@ -6,9 +6,10 @@
 
 .dontLimitHeaderText {
     border: 1px solid #FCD54C;
-    width: 1110px;
+    max-width: 1110px;
     height: 313px;
     margin-top: 118px;
+    padding: 70px 94px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 400;
@@ -23,8 +24,10 @@
 }
 
 .dontLimitArticlesBlock {
-    width: 1110px;
+    margin-top: 64px;
     display: flex;
+    justify-content: center;
+    gap: 23px;
 }
 
 .dontLimitArticle {
@@ -33,6 +36,17 @@
     flex-direction: column;
 }
 
-.articleImage {}
+.articleImage {
+    width: 543px;
+    height: 312px;
+}
 
-.articleText {}
+.articleText {
+    margin-top: 70px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: #E8E8E8;
+}

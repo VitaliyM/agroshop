@@ -193,21 +193,27 @@
 
 /* ---------------------- */
 @media screen and (max-width: 1440px) {
+    .presentBlock {
+        background-size: cover;
+        height: 720px;
+    }
+
     .presentText {
         left: 10%;
+        top: 130px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .presentBlock {
-        height: 771px;
+        height: 510px;
     }
 
     .presentText {
-        height: 300px;
+        height: 280px;
         width: 560px;
         padding-top: 30px;
-        top: 160px;
+        top: 60px;
     }
 
     .presentTextHeader {
@@ -216,8 +222,8 @@
     }
 
     .presentTextDescribe {
-        font-size: 75px;
-        line-height: 80px;
+        font-size: 65px;
+        line-height: 75px;
     }
 
     .presentTextConsult {
@@ -227,7 +233,7 @@
 
     .presentSwitchBlock {
         width: 80%;
-        height: 130px;
+        height: 90px;
     }
 
     .presentSwitchNextPrev {
@@ -255,7 +261,6 @@
 
 @media screen and (max-width: 768px) {
     .presentBlock {
-        background-size: cover;
         height: 372px;
     }
 
