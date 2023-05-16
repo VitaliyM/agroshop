@@ -1,4 +1,5 @@
 .dontLimitBlock {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,7 +8,6 @@
 .dontLimitHeaderText {
     border: 1px solid #FCD54C;
     max-width: 1110px;
-    height: 313px;
     margin-top: 118px;
     padding: 70px 94px;
     font-family: 'Gilroy';
@@ -24,6 +24,7 @@
 }
 
 .dontLimitArticlesBlock {
+    max-width: 1110px;
     margin-top: 64px;
     display: flex;
     justify-content: center;
@@ -31,14 +32,14 @@
 }
 
 .dontLimitArticle {
-    width: 543px;
+    max-width: 543px;
     display: flex;
     flex-direction: column;
 }
 
 .articleImage {
-    width: 543px;
-    height: 312px;
+    width: 100%;
+    height: auto;
 }
 
 .articleText {
@@ -50,3 +51,27 @@
     line-height: 160%;
     color: #E8E8E8;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+    .articleImage {
+        height: 258px;
+    }
+
+    .articleText {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .articleImage {
+        height: 194px;
+    }
+
+    .articleText {
+        font-size: 14px;
+    }
+}
+
