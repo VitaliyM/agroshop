@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../../../fonts/Worksans/WorkSans-Regular.otf)
+}
+
+
+.contactUsBlock {
+    background: url(../../../images/contactUs.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    margin-top: 115px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactUsSmallText {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #272727;
+}
+
+.contactUsBigText {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 100%;
+    color: #272727;
+}
+
+.contactUsForm {
+    height: 61px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.contactUsInput {
+    border: none;
+    background: #FFFFFF;
+    width: 307px;
+    height: inherit;
+    padding-left: 42px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #272727;
+}
+
+.contactUsButton {
+    border: none;
+    background: #272727;
+    width: 165px;
+    height: inherit;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contactUsButton:active {
+    padding-top: 2px;
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .contactUsBlock {
+        height: 320px;
+    }
+
+    .contactUsBigText {
+        font-size: 100px;
+    }
+
+    .contactUsForm {
+        height: 55px;
+        margin-top: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .contactUsBlock {
+        width: calc(100% + 78px);
+        height: 255px;
+        margin-left: -39px;
+    }
+
+    .contactUsSmallText {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+    .contactUsBigText {
+        margin-top: 15px;
+        font-size: 50px;
+    }
+
+    .contactUsForm {
+        height: 41px;
+        margin-top: 29px;
+    }
+
+    .contactUsInput {
+        width: 182px;
+    }
+
+    .contactUsButton {
+        width: 106px;
+    }
+}

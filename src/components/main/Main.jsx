@@ -4,6 +4,7 @@ import Presentation from './presentation/Presentation'
 import LatestProjects from './latestProjects/LatestProjects';
 import VideoApartments from './videoApartments/VideoApartments';
 import DontLimit from './dontLimit/DontLimit';
+import ContactUs from './contactUs/ContactUs';
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
         <LatestProjects />
         <VideoApartments />
         <DontLimit />
+        <ContactUs />
     </main>
   )
 }
