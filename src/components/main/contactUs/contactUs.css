@@ -54,9 +54,13 @@
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 100%;
     color: #272727;
+}
+
+.contactUsInput::placeholder {
+    font-size: 12px;
 }
 
 .contactUsButton {
@@ -75,6 +79,7 @@
 
 .contactUsButton:active {
     padding-top: 2px;
+    color: lightgrey;
 }
 
 
@@ -120,6 +125,8 @@
 
     .contactUsInput {
         width: 182px;
+        padding-left: 22px;
+        font-size: 14px;
     }
 
     .contactUsButton {
