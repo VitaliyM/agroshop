@@ -8,7 +8,7 @@
     src: url(../../../fonts/Worksans/WorkSans-Regular.otf)
 }
 
-.UsefulArtBlock {
+.usefulArtBlock {
     width: 100%;
     margin-top: 140px;
     display: flex;
@@ -16,13 +16,13 @@
     align-items: center;
 }
 
-.UsefulArtHeader {
+.usefulArtHeader {
     width: 1111px;
     display: flex;
     justify-content: space-between;
 }
 
-.UsefulArtBigText {
+.usefulArtBigText {
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
@@ -31,7 +31,7 @@
     color: #FFFFFF;
 }
 
-.UsefulArtViewAll {
+.usefulArtViewAll {
     display: flex;
     align-items: center;
     font-family: 'Gilroy';
@@ -40,9 +40,10 @@
     font-size: 16px;
     line-height: 21px;
     color: #929292;
+    cursor: pointer;
 }
 
-.UsefulArtViewAll::after {
+.usefulArtViewAll::after {
     display: block;
     margin-left: 20px;
     content: '';
@@ -53,16 +54,34 @@
     transform: rotateZ(45deg);
 }
 
-.UsefulArtWrapper {
+.usefulArtViewAll:hover,
+.usefulArtViewAll:hover::after {
+    color: #FCD54C;
+    border-color: #FCD54C;
+}
+
+.usefulArtWrapper {
     width: 1111px;
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
 }
 
-.UsefulArticle {
+.usefulArticle {
     background-size: cover;
     width: 350px;
     height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.articleHeader {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
 }
 
 .article1 {
@@ -77,13 +96,50 @@
     background: url(../../../images/useful3.png) no-repeat;
 }
 
-.articleDate {}
+.usefulArticleInfo {
+    background: #272727;
+    width: inherit;
+    height: inherit;
+    padding: 41px 35px 0 35px;
+    position: absolute;
+    top: 350px;
+    transition: all 0.2s linear;
+}
 
-.articleHeader {}
+.usefulArticle:hover .usefulArticleInfo {
+    border: 1px solid #FCD54C;
+    top: 0;
+    transition: all 0.2s linear;
+}
 
-.articleText {}
+.articleInfoDate {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
 
-.articleLearnMore {
+.articleInfoHeader {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.articleInfoText {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #929292;
+}
+
+.articleInfoLearnMore {
     display: flex;
     align-items: center;
     font-family: 'Work Sans';
@@ -94,7 +150,7 @@
     color: #FCD54C;
 }
 
-.articleLearnMore::after {
+.articleInfoLearnMore::after {
     display: block;
     margin-left: 20px;
     content: '';
