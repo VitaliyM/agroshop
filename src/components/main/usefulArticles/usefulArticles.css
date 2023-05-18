@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../../../fonts/Worksans/WorkSans-Regular.otf)
+}
+
+.UsefulArtBlock {
+    width: 100%;
+    margin-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.UsefulArtHeader {
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.UsefulArtBigText {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+
+.UsefulArtViewAll {
+    display: flex;
+    align-items: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #929292;
+}
+
+.UsefulArtViewAll::after {
+    display: block;
+    margin-left: 20px;
+    content: '';
+    border-top: 1px solid #929292;
+    border-right: 1px solid #929292;
+    width: 10px;
+    height: 10px;
+    transform: rotateZ(45deg);
+}
+
+.UsefulArtWrapper {
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.UsefulArticle {
+    background-size: cover;
+    width: 350px;
+    height: 350px;
+}
+
+.article1 {
+    background: url(../../../images/useful1.png) no-repeat;
+}
+
+.article2 {
+    background: url(../../../images/project2.png) no-repeat;
+}
+
+.article3 {
+    background: url(../../../images/useful3.png) no-repeat;
+}
+
+.articleDate {}
+
+.articleHeader {}
+
+.articleText {}
+
+.articleLearnMore {
+    display: flex;
+    align-items: center;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FCD54C;
+}
+
+.articleLearnMore::after {
+    display: block;
+    margin-left: 20px;
+    content: '';
+    border-top: 1px solid #FCD54C;
+    border-right: 1px solid #FCD54C;
+    width: 10px;
+    height: 10px;
+    transform: rotateZ(45deg);
+}
