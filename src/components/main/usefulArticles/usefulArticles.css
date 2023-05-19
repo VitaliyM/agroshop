@@ -17,7 +17,7 @@
 }
 
 .usefulArtHeader {
-    width: 1111px;
+    width: 1110px;
     display: flex;
     justify-content: space-between;
 }
@@ -61,27 +61,19 @@
 }
 
 .usefulArtWrapper {
-    width: 1111px;
     margin-top: 80px;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .usefulArticle {
     background-size: cover;
     width: 350px;
     height: 350px;
+    display: flex;
+    align-items: flex-end;
     position: relative;
     overflow: hidden;
-}
-
-.articleHeader {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 35px;
-    color: #FFFFFF;
 }
 
 .article1 {
@@ -122,15 +114,24 @@
 }
 
 .articleInfoHeader {
+    position: absolute;
+    top: -70px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 35px;
     color: #FFFFFF;
+    transition: all 0.2s linear;
+}
+
+.usefulArticle:hover .articleInfoHeader {
+    top: 82px;
+    transition: all 0.2s linear;
 }
 
 .articleInfoText {
+    margin-top: 78px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -140,6 +141,7 @@
 }
 
 .articleInfoLearnMore {
+    margin-top: 52px;
     display: flex;
     align-items: center;
     font-family: 'Work Sans';
@@ -148,6 +150,7 @@
     font-size: 16px;
     line-height: 24px;
     color: #FCD54C;
+    cursor: pointer;
 }
 
 .articleInfoLearnMore::after {
@@ -159,4 +162,19 @@
     width: 10px;
     height: 10px;
     transform: rotateZ(45deg);
+}
+
+
+
+
+@media screen and (max-width: 1440px) {
+    .usefulArtHeader {
+        width: 83%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .usefulArtHeader {
+        width: 100%;
+    }
 }

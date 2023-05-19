@@ -66,6 +66,12 @@
 
 @media screen and (max-width: 768px) {
 
+    .dontLimitHeaderText {
+        padding-top: 38px;
+        padding-bottom: 38px;
+        font-size: 18px;
+    }
+
     .articleImage {
         height: 194px;
     }
