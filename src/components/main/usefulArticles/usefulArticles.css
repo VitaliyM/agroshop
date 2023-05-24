@@ -178,3 +178,66 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .usefulArtBigText {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .usefulArtViewAll {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .usefulArtViewAll::after {
+        width: 8px;
+        height: 8px;
+    }
+
+    .usefulArtWrapper {
+        margin-top: 38px;
+    }
+
+    .usefulArticle {
+        width: 208px;
+        height: 220px;
+    }
+
+    .usefulArticleInfo {
+        padding: 25px 32px 0 25px;
+        top: 208px;
+    }
+
+    .articleInfoDate {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .articleInfoHeader {
+        top: -50px;
+        font-size: 19px;
+        line-height: 22px;
+    }
+
+    .usefulArticle:hover .articleInfoHeader {
+        top: 52px;
+    }
+
+    .articleInfoText {
+        margin-top: 70px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .articleInfoLearnMore {
+        margin-top: 25px;
+        font-size: 12px;
+        line-height: 0px;
+    }
+
+    .articleInfoLearnMore::after {
+        width: 8px;
+        height: 8px;
+    }
+}
