@@ -90,8 +90,8 @@
 
 .usefulArticleInfo {
     background: #272727;
-    width: inherit;
-    height: inherit;
+    width: 100%;
+    height: 100%;
     padding: 41px 35px 0 35px;
     position: absolute;
     top: 350px;
@@ -168,7 +168,17 @@
 
 
 @media screen and (max-width: 1440px) {
+    .usefulArticleInfo {
+        padding-right: 30px;
+        padding-left: 35px;
+    }
+
     .usefulArtHeader {
+        width: 83%;
+        font-size: 23px;
+    }
+
+    .usefulArtWrapper {
         width: 83%;
     }
 }
@@ -176,6 +186,15 @@
 @media screen and (max-width: 1024px) {
     .usefulArtHeader {
         width: 100%;
+    }
+
+    .usefulArtWrapper {
+        width: 100%;
+    }
+
+    .articleInfoHeader {
+        font-size: 22px;
+        line-height: 30px;
     }
 }
 
