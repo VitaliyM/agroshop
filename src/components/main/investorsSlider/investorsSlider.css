@@ -1,5 +1,58 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../../../fonts/Worksans/WorkSans-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../../fonts/Gilroy/Gilroy-Black.ttf);
+}
+
 .investorsBlock {
     width: 100%;
     margin-top: 226px;
 }
 
+.investorsSliderWrap {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.investorSlide {
+    border: 1px solid #FCD54C;
+    width: 525px;
+    height: 311px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.investor {
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+    position: absolute;
+    top: -56px;
+    left: 31px;
+}
+
+.investor1 {}
+
+.investor2 {}
+
+.quotes {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 200px;
+    color: #FCD54C;
+}
+
+.investorName {}
+
+.investorCompany {}
+
+.investorText {}

@@ -6,6 +6,7 @@ import VideoApartments from './videoApartments/VideoApartments';
 import DontLimit from './dontLimit/DontLimit';
 import ContactUs from './contactUs/ContactUs';
 import UsefulArticles from './usefulArticles/UsefulArticles';
+import InvestorsSlider from './investorsSlider/InvestorsSlider';
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
         <DontLimit />
         <ContactUs />
         <UsefulArticles />
+        <InvestorsSlider />
     </main>
   )
 }
