@@ -9,15 +9,21 @@
 }
 
 .investorsBlock {
-    width: 100%;
+    width: 106.66%;
     margin-top: 226px;
+    position: relative;
+    left: -3.33%;
+    overflow: hidden;
 }
 
 .investorsSliderWrap {
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+    width: inherit;
+    height: 367px;
     display: flex;
+    align-items: flex-end;
+    gap: 60px;
+    position: relative;
+    left: -67px;
 }
 
 .investorSlide {
@@ -56,3 +62,19 @@
 .investorCompany {}
 
 .investorText {}
+
+
+.investorSlideSwitcher {
+    width: 73px;
+    margin: 44px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.investorSwitch {
+    border-radius: 50%;
+    background: #929292;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+}
