@@ -13,26 +13,39 @@
     margin-top: 226px;
     position: relative;
     left: -3.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     overflow: hidden;
 }
 
 .investorsSliderWrap {
-    width: inherit;
-    height: 367px;
+    width: 2047px;
+    height: 410px;
     display: flex;
     align-items: flex-end;
     gap: 60px;
     position: relative;
-    left: -67px;
 }
 
 .investorSlide {
     border: 1px solid #FCD54C;
     width: 525px;
     height: 311px;
+    padding-left: 30px;
     position: relative;
     display: flex;
     flex-direction: column;
+}
+
+.investorSlide:nth-child(1) {
+    top: -40px;
+    opacity: 0.3;
+}
+
+.investorSlide:nth-child(4) {
+    top: -40px;
+    opacity: 0.3;
 }
 
 .investor {
@@ -49,24 +62,53 @@
 .investor2 {}
 
 .quotes {
+    background: url(../../../images/quotes.png) no-repeat;
+    width: 55px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.investorName {
+    margin-top: 18px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.investorCompany {
+    margin-top: 19px;
     font-family: 'Work Sans';
     font-style: normal;
-    font-weight: 600;
-    font-size: 120px;
-    line-height: 200px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.investorLink {
+    text-decoration: none;
     color: #FCD54C;
 }
 
-.investorName {}
-
-.investorCompany {}
-
-.investorText {}
+.investorText {
+    margin-top: 34px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #929292;
+}
 
 
 .investorSlideSwitcher {
     width: 73px;
-    margin: 44px auto 0;
+    margin-top: 44px;
     display: flex;
     justify-content: space-between;
 }
@@ -77,4 +119,8 @@
     width: 13px;
     height: 13px;
     cursor: pointer;
+}
+
+.investorSwitch:nth-child(2) {
+    background: #FCD54C;
 }
