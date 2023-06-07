@@ -20,7 +20,6 @@
 }
 
 .investorsSliderWrap {
-    width: 2047px;
     height: 410px;
     display: flex;
     align-items: flex-end;
@@ -123,4 +122,34 @@
 
 .investorSwitch:nth-child(2) {
     background: #FCD54C;
+}
+
+
+@media screen and (max-width: 1440px) {
+    .investorSlide {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .investorsBlock {
+        margin-top: 115px;
+    }
+
+    .investorsSliderWrap {
+        gap: 30px;
+    }
+
+    .investorSlide {
+        width: 330px;
+        height: 200px;
+        padding-left: 20px;
+    }
+
+    .investor {
+        width: 68px;
+        height: 68px;
+        top: -34px;
+        left: 30px;
+    }
 }
