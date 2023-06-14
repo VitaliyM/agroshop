@@ -29,7 +29,7 @@
 
 .investorSlide {
     border: 1px solid #FCD54C;
-    width: 525px;
+    width: 27.6vw;
     height: 311px;
     padding-left: 30px;
     position: relative;
@@ -127,7 +127,7 @@
 
 @media screen and (max-width: 1440px) {
     .investorSlide {
-        width: 480px;
+        width: 33.4vw;
     }
 }
 
@@ -141,15 +141,50 @@
     }
 
     .investorSlide {
-        width: 330px;
+        width: 32.3vw;
         height: 200px;
         padding-left: 20px;
+        padding-right: 23px;
     }
 
     .investor {
         width: 68px;
         height: 68px;
         top: -34px;
-        left: 30px;
+        left: 20px;
+    }
+
+    .quotes {
+        background-size: contain;
+        width: 40px;
+        height: 30px;
+        margin-top: 20px;
+        margin-right: 0;
+    }
+
+    .investorName {
+        margin-top: 8px;
+    }
+
+    .investorCompany {
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .investorText {
+        margin-top: 8px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .investorsSliderWrap {
+        height: 234px;
+    }
+
+    .investorSlide {
+        width: 43vw;
     }
 }
