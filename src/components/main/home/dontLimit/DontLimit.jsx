@@ -1,7 +1,7 @@
 import React from 'react';
 import './dontLimit.css';
-import articleImage1 from '../../../images/articleImg1.png';
-import articleImage2 from '../../../images/articleImg2.png';
+import articleImage1 from '../../../../images/articleImg1.png';
+import articleImage2 from '../../../../images/articleImg2.png';
 
 const DontLimit = () => {
     return (

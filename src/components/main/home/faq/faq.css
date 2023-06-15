@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../../../fonts/Gilroy/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../../../../fonts/Worksans/WorkSans-Regular.otf)
+}
+
+
+.faqBlock {
+    width: 100%;
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faqHeader {
+    width: 57.71vw;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.faqItem {
+    width: 57.71vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.faqList {
+    border-bottom: 1px solid #929292;
+    height: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.faqList:nth-child(1) {
+    border-top: 1px solid #929292;
+}
+
+.faqQuestion {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.faqAnswer {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #E8E8E8;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .faqHeader {
+        width: 71vw;
+    }
+
+    .faqItem {
+        width: 71vw;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .faqHeader {
+        width: 68vw;
+    }
+
+    .faqItem {
+        width: 68vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .faqHeader {
+        width: 100%;
+    }
+    
+    .faqItem {
+        width: 100%;
+    }
+}
+

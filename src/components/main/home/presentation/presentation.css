@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'Space Grotesk';
-    src: url(../../../fonts/SpaceGrotesk/SpaceGrotesk.ttf);
+    src: url(../../../../fonts/SpaceGrotesk/SpaceGrotesk.ttf);
 }
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(../../../fonts/Worksans/WorkSans-Regular.otf);
+    src: url(../../../../fonts/Worksans/WorkSans-Regular.otf);
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url(../../../fonts/Gilroy/Gilroy-Black.ttf);
+    src: url(../../../../fonts/Gilroy/Gilroy-Black.ttf);
 }
 
 
 
 .presentBlock {
-    background: url(../../../images/slider1.png)no-repeat;
+    background: url(../../../../images/slider1.png)no-repeat;
     width: 100%;
     height: 971px;
     display: flex;
@@ -31,7 +31,7 @@
 
 /* ----------------------- */
 .presentText {
-    background: url(../../../images/RectanglePresentationBg.png) no-repeat;
+    background: url(../../../../images/RectanglePresentationBg.png) no-repeat;
     background-size: contain;
     width: 742px;
     height: 383px;
@@ -97,23 +97,23 @@
 }
 
 .facebook {
-    background: url(../../../images/socialIcons.png) no-repeat center 0;
+    background: url(../../../../images/socialIcons.png) no-repeat center 0;
 }
 
 .twitter {
-    background: url(../../../images/socialIcons.png) no-repeat center -35px;
+    background: url(../../../../images/socialIcons.png) no-repeat center -35px;
 }
 
 .youtube {
-    background: url(../../../images/socialIcons.png) no-repeat center -70px;
+    background: url(../../../../images/socialIcons.png) no-repeat center -70px;
 }
 
 .instagram {
-    background: url(../../../images/socialIcons.png) no-repeat center -105px;
+    background: url(../../../../images/socialIcons.png) no-repeat center -105px;
 }
 
 .linkedIn {
-    background: url(../../../images/socialIcons.png) no-repeat center -143px;
+    background: url(../../../../images/socialIcons.png) no-repeat center -143px;
 }
 
 

@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Work Sans';
-    src: url(../../../fonts/Worksans/WorkSans-Regular.otf);
+    src: url(../../../../fonts/Worksans/WorkSans-Regular.otf);
 }
 
 @font-face {
     font-family: 'Gilroy';
-    src: url(../../../fonts/Gilroy/Gilroy-Black.ttf);
+    src: url(../../../../fonts/Gilroy/Gilroy-Black.ttf);
 }
 
 .investorsBlock {
@@ -61,7 +61,7 @@
 .investor2 {}
 
 .quotes {
-    background: url(../../../images/quotes.png) no-repeat;
+    background: url(../../../../images/quotes.png) no-repeat;
     width: 55px;
     height: 40px;
     margin-top: 40px;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './investorsSlider.css';
-import Image1 from '../../../images/investor1.png';
-import Image2 from '../../../images/investor2.png';
+import Image1 from '../../../../images/investor1.png';
+import Image2 from '../../../../images/investor2.png';
 
 const InvestorsSlider = () => {
     return (
