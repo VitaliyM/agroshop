@@ -41,6 +41,7 @@
     flex-direction: column;
     align-items: flex-start;
     overflow: hidden;
+    transition: height 0.2s linear;
 }
 
 .faqList:nth-child(1) {
@@ -48,15 +49,42 @@
 }
 
 .faqQuestion {
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 130%;
+    line-height: 63px;
     color: #FFFFFF;
 }
 
+.faqQuestion::after {
+    content: '';
+    border-top: 1px solid #FCD54C;
+    border-right: 1px solid #FCD54C;
+    width: 10px;
+    height: 10px;
+    transform: rotateZ(45deg);
+    transition: transform 0.2s linear;
+}
+
+.faqList:hover {
+    height: 230px;
+    transition: height 0.2s linear;
+}
+
+.faqList:hover .faqQuestion::after {
+    transform: rotateZ(135deg);
+    transition: transform 0.2s linear;
+}
+
 .faqAnswer {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
