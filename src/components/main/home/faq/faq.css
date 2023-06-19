@@ -50,7 +50,7 @@
 }
 
 .faqList:hover {
-    height: 220px;
+    height: 250px;
     transition: height 0.2s linear;
 }
 
@@ -108,7 +108,7 @@
     }
 
     .faqList:hover {
-        height: 220px;
+        height: 280px;
     }
 }
 
@@ -116,13 +116,13 @@
     .faqHeader {
         width: 68vw;
     }
-    
+
     .faqItem {
-            width: 68vw;
+        width: 68vw;
     }
 
     .faqList:hover {
-        height: ;
+        height: 380px;
     }
 
     .faqQuestion {
@@ -134,14 +134,23 @@
 @media screen and (max-width: 768px) {
     .faqHeader {
         width: 100%;
+        font-size: 30px;
+        line-height: 37px;
     }
-    
-        .faqItem {
-            width: 100%;
-        }
+
+    .faqItem {
+        width: 100%;
+    }
 
     .faqList:hover {
-        height: ;
+        height: 330px;
     }
 
+    .faqQuestion {
+        letter-spacing: -0.4px;
+    }
+
+    .faqAnswer {
+        font-size: 12px;
+    }
 }
