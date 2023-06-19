@@ -19,6 +19,7 @@
 
 .faqHeader {
     width: 57.71vw;
+    margin-bottom: 30px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: 700;
@@ -48,6 +49,11 @@
     border-top: 1px solid #929292;
 }
 
+.faqList:hover {
+    height: 220px;
+    transition: height 0.2s linear;
+}
+
 .faqQuestion {
     width: 99%;
     display: flex;
@@ -71,11 +77,6 @@
     transition: transform 0.2s linear;
 }
 
-.faqList:hover {
-    height: 230px;
-    transition: height 0.2s linear;
-}
-
 .faqList:hover .faqQuestion::after {
     transform: rotateZ(135deg);
     transition: transform 0.2s linear;
@@ -83,6 +84,7 @@
 
 .faqAnswer {
     width: 85%;
+    height: 0;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Work Sans';
@@ -95,6 +97,7 @@
 
 
 
+
 @media screen and (max-width: 1440px) {
     .faqHeader {
         width: 71vw;
@@ -103,16 +106,29 @@
     .faqItem {
         width: 71vw;
     }
+
+    .faqList:hover {
+        height: 220px;
+    }
 }
 
 @media screen and (max-width: 1024px) {
     .faqHeader {
         width: 68vw;
     }
-
+    
     .faqItem {
-        width: 68vw;
+            width: 68vw;
     }
+
+    .faqList:hover {
+        height: ;
+    }
+
+    .faqQuestion {
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -120,8 +136,12 @@
         width: 100%;
     }
     
-    .faqItem {
-        width: 100%;
-    }
-}
+        .faqItem {
+            width: 100%;
+        }
 
+    .faqList:hover {
+        height: ;
+    }
+
+}
