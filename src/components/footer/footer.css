@@ -1,3 +1,111 @@
+@font-face {
+    font-family: "Work Sans";
+    src: url(../../fonts/Worksans/WorkSans-Regular.otf);
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url(../../fonts/Gilroy/Gilroy-Thin.ttf);
+}
+
+
 .footerBlock {
-    height: 566px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin-top: 122px;
+    padding-left: 3.13%;
+    padding-right: 3.13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/* ----------------- */
+.footerLogo {
+    background: url(./../../images/logoBg.png) no-repeat left top;
+    height: 65px;
+    margin-top: 70px;
+    padding-top: 5px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLogoBigText {
+    font-family: 'Gilroy';
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+.footerLogoSmallText {
+    font-family: 'Work Sans';
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+
+
+/* -------------------------- */
+.footerMapBlock {
+    width: 100%;
+    margin-top: 51px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerMapInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #E8E8E8;
+}
+
+.footerInfoHeader {
+    margin-bottom: 40px;
+}
+
+.footerInfoList {
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.footerInfoList:hover {
+    color: #FCD54C;
+}
+
+
+
+.footerConsultButton {
+    border: none;
+    background: #FCD54C;
+    width: 165px;
+    height: 41px;
+    margin-top: 78px;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+
+
+/* ------------------- */
+.footerCopyrightBlock {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    width: 106%;
+    height: 90px;
 }
