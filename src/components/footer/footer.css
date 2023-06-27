@@ -134,10 +134,22 @@
         overflow: hidden;
         width: 100%;
         height: 50px;
+        padding-top: 12px;
+        transition: height 0.2s linear;
+    }
+
+    .footerMapInfo:hover {
+        height: 280px;
+        transition: height 0.2s linear;
+    }
+    /* Вимкнути hover для останнього елемента */
+
+    .footerInfoList {
+        padding-left: 20px;
     }
 
     .footerContactBlock {
-        height: 125px;
+        height: 135px;
         flex-wrap: wrap;
         border-bottom: none;
     }
