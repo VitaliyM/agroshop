@@ -51,7 +51,16 @@ const Footer = () => {
           <button className='footerConsultButton'>Book a consultation</button>
         </div>
       </div>
-      <div className='footerCopyrightBlock'></div>
+      <div className='footerCopyrightBlock'>
+        <div className='footerCopyrightText'>Copyright © 2022 Dubai Realty</div>
+        <div className='footerCopyrightSocialBtn'>
+          <div className="copySocialsBtn facebook"></div>
+          <div className="copySocialsBtn twitter"></div>
+          <div className="copySocialsBtn youtube"></div>
+          <div className="copySocialsBtn instagram"></div>
+          <div className="copySocialsBtn linkedIn"></div>
+        </div>
+      </div>
     </div>
   )
 }

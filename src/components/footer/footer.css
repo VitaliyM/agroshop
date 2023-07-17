@@ -109,8 +109,32 @@
     width: 106%;
     height: 90px;
     margin-top: 95px;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.footerCopyrightText {
+    font-family: Lexend;
+    font-size: 18px;
+    font-weight: 300;
+    color: #E8E8E8;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.footerCopyrightSocialBtn {
+    display: flex;
+    gap: 20px;
+}
+
+.copySocialsBtn {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
 
 
 
@@ -126,7 +150,7 @@
     .footerMapBlock {
         flex-direction: column;
         align-items: flex-start;
-        
+
     }
 
     .footerMapInfo {
@@ -142,10 +166,13 @@
         height: 280px;
         transition: height 0.2s linear;
     }
+
     /* Вимкнути hover для останнього елемента */
 
-    .footerInfoList {
-        padding-left: 20px;
+    .footerMapInfo:last-child {
+        height: 135px;
+        flex-wrap: wrap;
+        border-bottom: none;
     }
 
     .footerContactBlock {
@@ -153,6 +180,15 @@
         flex-wrap: wrap;
         border-bottom: none;
     }
+
+    .footerInfoList {
+        padding-left: 10px;
+    }
+
+    .footerConsultButton {
+        margin-left: auto;
+    }
+
 
     .footerCopyrightBlock {
         margin-top: 28px;
