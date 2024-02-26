@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url(../../../../fonts/Gilroy/Gilroy-Regular.ttf);
+    src: url(../../../fonts/Gilroy/Gilroy-Regular.ttf);
 }
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(../../../../fonts/Worksans/WorkSans-Regular.otf)
+    src: url(../../../fonts/Worksans/WorkSans-Regular.otf)
 }
 
 
 .contactUsBlock {
-    background: url(../../../../images/contactUs.png) no-repeat;
+    background: url(../../../images/contactUs.png) no-repeat;
     background-size: cover;
     width: 100%;
     height: 400px;
