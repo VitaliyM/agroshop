@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(../../../../fonts/SpaceGrotesk/SpaceGrotesk.ttf);
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url(../../../../fonts/Worksans/WorkSans-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../../../../fonts/Gilroy/Gilroy-Black.ttf);
+}
+
+
+.rentTextBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.rentTextTreeBlock {
+    position: absolute;
+    top: 30px;
+    left: 19.2%;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.rentTextTree {
+    color: #ffffff;
+}
+
+.rentTextTreeActive {
+    color: #929292;
+}
+
+.rentTextArticleBlock {
+    width: 728px;
+    margin-top: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rentTextArticle {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #929292;
+    margin-bottom: 50px;
+}
